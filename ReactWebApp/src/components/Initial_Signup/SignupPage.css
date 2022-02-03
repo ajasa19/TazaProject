@@ -1,0 +1,44 @@
+.text-color {
+    background-color: hotpink;
+    
+}
+.text-colo {
+    background-color: red;
+    
+}
+.login {
+    background-color: blue;
+}
+.card-title {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;;
+    
+}
+.padding-top {
+    padding-top: 10px;
+}
+.card-box {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   
+}
+
+.stretch {
+    width: 100%;
+    justify-content: stretch;
+
+}
+
+.signup-img {
+    border-radius: 60px;
+    box-shadow: 12px 12px 12px #888888;
+}
+

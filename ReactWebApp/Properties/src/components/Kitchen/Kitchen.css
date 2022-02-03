@@ -1,0 +1,37 @@
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg"); */
+  
+    /* Set a specific height */
+    height: 100%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .foodCardContainer .MuiCard-root{
+      width: 350px;
+      height: 200px;
+      box-shadow: 5px 5px 10px 3px rgba(0,0,0,0.62);
+      position: relative;
+  }
+  
+
+  .foodCardContainer .MuiCardContent-root{
+    padding: 4px 16px 0px 16px;
+  }
+
+  .foodCardContainer .MuiTypography-root{
+    margin-bottom: 0px;
+    position: relative;
+  }
+
+  .foodCardContainer .MuiCardActions-root{
+    padding: 0px 8px 0px 8px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+  }

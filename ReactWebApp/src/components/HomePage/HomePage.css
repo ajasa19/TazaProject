@@ -1,0 +1,155 @@
+.bg {
+    background-color: black;
+    width: 100%;
+    padding:20px;
+}
+
+.container {
+    display: flex;
+    flex-direction:row;
+    
+    
+}
+.item {
+    margin-top:50px;
+    margin:20px;
+}
+
+.container > div {
+    text-align: center;
+    
+    
+}
+.bg > div {
+    text-align: center;
+    position: relative;
+}
+.text {
+    color: white;
+    position: absolute;  
+    left: 50%;                        /* horizontal alignment */
+    top: 50%;    
+    font-size: 7vh;                     /* vertical alignment */
+    transform: translate(-50%, -50%);
+}
+
+.subheading {
+    color: rgb(218, 218, 218);
+     
+    font-size: 3vh;                     /* vertical alignment */
+
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.heading {
+    font-size: 90px;
+}
+.subheading {
+    font-size: 30px;
+
+}
+
+hr {
+    width: 50%;
+    text-align:center;
+}
+* {
+    /*overflow-x: hidden;*/
+}
+.btn {
+    background-color: rgb(219, 9, 9);
+    /* box-shadow: 0 100px 100px rgb(0 0 0 / 1); */
+    color: rgb(255, 255, 255);
+    border-radius: 10px;;
+    font-size: 30px;;
+    text-align: center;
+    position: relative;
+    left: 50%;                        /* horizontal alignment */
+    top: 60%;    
+    
+}
+.left-button-pos > button {
+   
+    background-color: darkred;
+    color: white;
+}
+.left-button-pos > button:hover {
+   
+    background-color: red;
+ 
+}
+
+.right-button-pos > button {
+   
+    background-color: darkred;
+    color: white;
+}
+
+    .right-button-pos > button:hover {
+        background-color: red;
+    }
+
+
+.welcome-area {
+    /* background-image: url('../images/Shawarmah_new.png'); */
+    /* position: relative; */
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url(./Shawarmah_new.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    z-index: -1;
+}
+
+.button-locato {
+    color: rgb(206, 202, 202);
+    position: absolute;  
+    left: 45%;                        /* horizontal alignment */
+    top: 80%;    
+    font-size: 3vh;                     /* vertical alignment */
+    transform: translate(-50%, -50%);
+}
+.center {
+    justify-content: center;
+    align-content: center;
+}
+
+.blue-circle {
+    background-color: royalblue;
+    border-radius: 100%;
+    height: 100%;
+}
+
+.button-locator {
+    color: rgb(206, 202, 202);
+    position: absolute;  
+    left: 55%;                        /* horizontal alignment */
+    top: 80%;    
+    font-size: 3vh;                     /* vertical alignment */
+    transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 600px) {
+*{
+    margin: 0;
+}
+    .image-modify >img{
+        width: 100%;
+    }
+    .heading {
+        font-size: 40px;
+    }
+    .subheading {
+        font-size: 20px;
+    }
+  }
